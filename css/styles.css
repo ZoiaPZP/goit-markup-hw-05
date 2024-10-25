@@ -683,7 +683,7 @@ padding: 72px 24px 24px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #8e8f99;
+color: var(--label-color, #8e8f99);
   display: block;
   margin-bottom: 4px;
 }
@@ -785,6 +785,12 @@ padding: 72px 24px 24px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+input[type="checkbox"]:checked+.checkbox-label .checkbox-icon {
+  background-color: var(--checked-bg-color, #404bbf);
+  border: none;
+  fill: var(--checked-icon-color, #F4F4FD);
+}
 
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -100%);
