@@ -764,6 +764,16 @@ color: var(--label-color, #8e8f99);
 
 .privacy-link {
   color: #4d5ae5;
+  text-decoration: underline;
+    margin-left: 4px;
+
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+ 
 }
 
 .comment-field:focus {
