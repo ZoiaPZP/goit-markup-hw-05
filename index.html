@@ -435,12 +435,27 @@
       </div>
       </div>
       </footer>
-      <div class="backdrop" data-modal>
-       <div class="modal"></div>
+      <div class="backdrop is-open" data-modal>
+       <div class="modal">
        <button type="button" class="modal-close-btn" data-modal-close> X
-       </button>
-       
+      <svg width="8" height="8" class="close-icon">
+        <use href="./images/sprite.svg#icon-close"></use>
+      </svg>
+      </button>
+     <p class="modal-text">Leave your contacts and we will call you back</p>
+<form class="modal-form">
+  <div class="form-group">
+    <label for="user-name" class="form-label">Name</label>
+    <div class="input-container">
+      <input type="text" id="user-name" name="user-name" class="input-field">
+      <svg width="18" height="24" class="input-icon">
+        <use href="./images/sprite.svg#icon-user"></use>
+      </svg>
+    </div>
+  </div>
+</form>
        </div>
+      </div>
        <script src="./js/modal.js"></script>
   </body>
 </html>
