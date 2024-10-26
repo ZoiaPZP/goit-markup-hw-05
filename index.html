@@ -435,15 +435,15 @@
       </div>
       </div>
       </footer>
-    <div class="backdrop is-open" data-modal>
-      <div class="modal">
-        <button type="button" class="modal-close-btn" data-modal-close>
+    <div class="backdrop is-open">
+      <div class="modal" role="alertdialog" aria-labelledby="modal-title">
+        <button type="button" class="modal-close-btn">
           X
           <svg width="8" height="8" class="close-icon">
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <p id="modal-title" class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="form-group">
             <label for="user-name-1" class="form-label">Name</label>
@@ -482,7 +482,7 @@
     
           <div class="form-checkbox" style="margin-bottom: 24px;">
             <input type="checkbox" id="user-privacy" name="user-privacy" class="visually-hidden" value="true">
-            <label for="user-privacy" class="checkbox-label">
+            <label for="user-privacy" class="checkbox-label" aria-label="Accept terms and conditions"></label>
               I accept the terms and conditions of the
               <a href="#" class="privacy-link">Privacy Policy</a>
               <span class="checkbox-icon">
