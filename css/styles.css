@@ -495,39 +495,27 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .footer {
   background-color: #2e2f42;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
- 
 }
 
 .footer-content {
   display: flex;
   align-items: flex-start;
-  align-items: center;
   
-}
-
-.footer-container,
-.subscribe-container,
-.socials-container {
-  display: flex;
-  flex-direction: column;
-align-items: center;
-
 }
 
 .footer-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -538,7 +526,6 @@ align-items: center;
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
-
 }
 
 .footer-logo-white {
@@ -560,11 +547,11 @@ align-items: center;
 }
 
 .socials-container {
-    flex-direction: column;
-    align-items: center;
-  text-align: center;
-  left: 50%;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  margin-right: 80px;
 }
 
 .socials-text {
@@ -579,10 +566,7 @@ align-items: center;
 .socials-list {
   display: flex;
   gap: 16px;
-  
 }
-
-
 
 .social-link {
   width: 40px;
@@ -611,10 +595,7 @@ align-items: center;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-margin-left: 800px;
-
 }
-
 
 .subscribe-text {
   font-weight: 500;
@@ -623,15 +604,12 @@ margin-left: 800px;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-
 }
-
 
 .subscribe-form {
   display: flex;
   gap: 24px;
 }
-
 
 .subscribe-input {
   width: 264px;
@@ -647,11 +625,9 @@ margin-left: 800px;
   color: #ffffff;
 }
 
-
 .subscribe-input::placeholder {
   color: #ffffff;
 }
-
 
 .subscribe-button {
   min-width: 165px;
@@ -669,8 +645,6 @@ margin-left: 800px;
   border: none;
   border-radius: 4px;
 }
-
-
 
 .subscribe-icon {
   margin-left: 16px;
