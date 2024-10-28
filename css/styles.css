@@ -495,7 +495,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
   
 }
 
@@ -509,7 +510,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-content {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  align-items: center;
   
 }
 
@@ -537,7 +538,7 @@ align-items: center;
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
-  
+
 }
 
 .footer-logo-white {
@@ -559,13 +560,11 @@ align-items: center;
 }
 
 .socials-container {
-  display: flex;
     flex-direction: column;
     align-items: center;
-  position: absolute;
   text-align: center;
   left: 50%;
-  transform: translateX(-50%);
+  
 }
 
 .socials-text {
